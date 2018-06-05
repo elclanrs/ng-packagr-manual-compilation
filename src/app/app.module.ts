@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ButtonModule } from 'components/button';
+import { CardModule } from 'components/card';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +10,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ButtonModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
